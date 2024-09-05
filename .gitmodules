@@ -56,9 +56,9 @@
 
 [submodule "cam"]
         path = components/cam
-        url = https://www.github.com/ESCOMP/CAM
-        fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam6_4_016
+	url = https://github.com/PeterHjortLauritzen/CAM
+	fxDONOTUSEurl = https://github.com/PeterHjortLauritzen/CAM
+        fxtag = cam-mars-dev_005
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -151,3 +151,10 @@
         fxDONOTUSEurl = https://github.com/NCAR/PyCECT
         fxrequired = ToplevelRequired
         fxtag = 3.2.2
+
+[submodule "socrates_libint"]
+	path = libraries/SOCRATES
+	url = https://github.com/ESCOMP/SOCRATES_interface
+	fxDONOTUSEurl = https://github.com/ESCOMP/SOCRATES_interface
+        fxrequired = ToplevelRequired
+        fxtag = interface_socrates_2304.003
