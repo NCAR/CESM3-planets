@@ -58,7 +58,7 @@
         path = components/cam
 	url = https://github.com/PeterHjortLauritzen/CAM
 	fxDONOTUSEurl = https://github.com/PeterHjortLauritzen/CAM
-        fxtag = cam-mars-gwdiff.07
+        fxtag = cam-mars-gwdiff.08
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
