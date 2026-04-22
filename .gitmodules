@@ -28,9 +28,9 @@
 
 [submodule "ccs_config"]
         path = ccs_config
-        url = https://github.com/ESMCI/ccs_config_cesm.git
-        fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config_cesm1.0.69
+        url = https://github.com/jtruesdal/ccs_config_cesm.git
+        fxDONOTUSEurl = https://github.com/jtruesdal/ccs_config_cesm.git
+        fxtag = ccs_config_cesm1.0.69_mars.02
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
@@ -49,24 +49,24 @@
 
 [submodule "share"]
         path = share
-        url = https://github.com/ESCOMP/CESM_share
-        fxDONOTUSEurl = https://github.com/ESCOMP/CESM_share
-        fxtag = share1.1.17
+        url = https://github.com/jtruesdal/CESM_share
+        fxDONOTUSEurl = https://github.com/jtruesdal/CESM_share
+        fxtag = share1.1.17_mars_dev
         fxrequired = ToplevelRequired
 
 [submodule "cam"]
         path = components/cam
 	url = https://github.com/PeterHjortLauritzen/CAM
 	fxDONOTUSEurl = https://github.com/PeterHjortLauritzen/CAM
-        fxtag = cam-mars-dev_010
+        fxtag = cam-mars-gwdiff.16
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
         path = components/clm
-        url = https://github.com/ESCOMP/CTSM
-        fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
+        url = https://github.com/jtruesdal/ctsm
+        fxDONOTUSEurl = https://github.com/jtruesdal/ctsm
         fxrequired = ToplevelRequired
-        fxtag = ctsm5.4.003
+        fxtag = ctsm5.4.003_mars_dev.01
 
 [submodule "cice"]
         path = components/cice
@@ -98,10 +98,10 @@
 
 [submodule "cmeps"]
         path = components/cmeps
-        url = https://github.com/ESCOMP/CMEPS.git
-        fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
+        url = https://github.com/jtruesdal/CMEPS.git
+        fxDONOTUSEurl = https://github.com/jtruesdal/CMEPS.git
         fxrequired = ToplevelRequired
-	fxtag = cmeps1.1.30
+	fxtag = cmeps1.1.30_mars_dev.01
 
 [submodule "rtm"]
         path = components/rtm
@@ -152,13 +152,6 @@
         fxrequired = ToplevelRequired
         fxtag = 3.2.2
 
-[submodule "socrates_libint"]
-	path = libraries/SOCRATES
-	url = https://github.com/ESCOMP/SOCRATES_interface
-	fxDONOTUSEurl = https://github.com/ESCOMP/SOCRATES_interface
-        fxrequired = ToplevelRequired
-        fxtag = interface_socrates_2304.003
-
 [submodule "tools/CUPiD"]
         path = tools/CUPiD
         url = https://github.com/NCAR/CUPiD.git
@@ -169,7 +162,13 @@
 [submodule "FTorch"]
 	path = libraries/FTorch
 	url = https://github.com/ESCOMP/FTorch_interface
-        fxtag = v0.0.5
-        fxrequired = ToplevelOptional
-        fxDONOTUSEurl = https://github.com/ESCOMP/FTorch_interface
+	fxtag = v0.0.5
+	fxrequired = ToplevelOptional
+	fxDONOTUSEurl = https://github.com/ESCOMP/FTorch_interface
 
+[submodule "socrates_libint"]
+	path = libraries/SOCRATES
+	url = https://github.com/ESCOMP/SOCRATES_interface
+	fxDONOTUSEurl = https://github.com/ESCOMP/SOCRATES_interface
+        fxrequired = ToplevelRequired
+        fxtag = interface_socrates_2304.003
