@@ -49,24 +49,24 @@
 
 [submodule "share"]
         path = share
-        url = https://github.com/ESCOMP/CESM_share
-        fxDONOTUSEurl = https://github.com/ESCOMP/CESM_share
-        fxtag = share1.1.17
+        url = https://github.com/jtruesdal/CESM_share
+        fxDONOTUSEurl = https://github.com/jtruesdal/CESM_share
+        fxtag = share1.1.17_mars_dev
         fxrequired = ToplevelRequired
 
 [submodule "cam"]
         path = components/cam
 	url = https://github.com/PeterHjortLauritzen/CAM
 	fxDONOTUSEurl = https://github.com/PeterHjortLauritzen/CAM
-        fxtag = cam-mars-gwdiff.15
+        fxtag = cam-mars-gwdiff.16
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
         path = components/clm
-        url = https://github.com/ESCOMP/CTSM
-        fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
+        url = https://github.com/jtruesdal/ctsm
+        fxDONOTUSEurl = https://github.com/jtruesdal/ctsm
         fxrequired = ToplevelRequired
-        fxtag = ctsm5.4.003
+        fxtag = ctsm5.4.003_mars_dev.01
 
 [submodule "cice"]
         path = components/cice
@@ -98,10 +98,10 @@
 
 [submodule "cmeps"]
         path = components/cmeps
-        url = https://github.com/ESCOMP/CMEPS.git
-        fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
+        url = https://github.com/jtruesdal/CMEPS.git
+        fxDONOTUSEurl = https://github.com/jtruesdal/CMEPS.git
         fxrequired = ToplevelRequired
-	fxtag = cmeps1.1.30
+	fxtag = cmeps1.1.30_mars_dev.01
 
 [submodule "rtm"]
         path = components/rtm
