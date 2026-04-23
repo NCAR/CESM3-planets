@@ -35,9 +35,9 @@
 
 [submodule "cime"]
         path = cime
-        url = https://github.com/ESMCI/cime
-        fxDONOTUSEurl = https://github.com/ESMCI/cime
-	fxtag = cime6.1.149
+        url = https://github.com/jtruesdal/cime
+        fxDONOTUSEurl = https://github.com/jtruesdal/cime
+	fxtag = cime6.1.149_mars.01
         fxrequired = ToplevelRequired
 
 [submodule "fms"]
@@ -51,14 +51,14 @@
         path = share
         url = https://github.com/jtruesdal/CESM_share
         fxDONOTUSEurl = https://github.com/jtruesdal/CESM_share
-        fxtag = share1.1.17_mars_dev
+        fxtag = share1.1.17_mars_dev.01
         fxrequired = ToplevelRequired
 
 [submodule "cam"]
         path = components/cam
 	url = https://github.com/PeterHjortLauritzen/CAM
 	fxDONOTUSEurl = https://github.com/PeterHjortLauritzen/CAM
-        fxtag = cam-mars-gwdiff.16
+        fxtag = cam-mars-gwdiff.18
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -66,7 +66,7 @@
         url = https://github.com/jtruesdal/ctsm
         fxDONOTUSEurl = https://github.com/jtruesdal/ctsm
         fxrequired = ToplevelRequired
-        fxtag = ctsm5.4.003_mars_dev.01
+        fxtag = ctsm5.4.003_mars_dev.02
 
 [submodule "cice"]
         path = components/cice
