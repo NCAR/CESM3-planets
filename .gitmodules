@@ -66,7 +66,7 @@
         url = https://github.com/jtruesdal/ctsm
         fxDONOTUSEurl = https://github.com/jtruesdal/ctsm
         fxrequired = ToplevelRequired
-        fxtag = ctsm5.4.003_mars_dev.02
+        fxtag = ctsm5.4.003_mars_dev.03
 
 [submodule "cice"]
         path = components/cice
